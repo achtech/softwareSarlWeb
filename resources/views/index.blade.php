@@ -51,6 +51,12 @@
       <div class="d-flex align-items-center">
         <i class="icofont-clock-time"></i> Monday - Friday, 8 AM to 6 PM (GMT+1)
       </div>
+      <div>
+        <a><img src="../assets/img/english.png" alt=""
+          /></a>
+          <a><img src="../assets/img/frensh.png" alt=""
+            /></a>
+      </div>
       <div class="d-flex align-items-center">
         <i class="icofont-phone"></i> Call us now +212 6 53 90 36 59
       </div>
