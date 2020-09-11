@@ -74,11 +74,11 @@
       <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-            <li><a href="#departments">Projects</a></li>
-          <li><a href="#doctors">Team</a></li>
+          <li class="active"><a href="index.html">{{ __('text.home.lbl')}}</a></li>
+          <li><a href="#about">{{ __('text.about.lbl')}}</a></li>
+          <li><a href="#services">{{ __('text.service.lbl')}}</a></li>
+          <li><a href="#departments">{{ __('text.projects.lbl')}}</a></li>
+          <li><a href="#doctors">{{ __('text.team.lbl')}}</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
