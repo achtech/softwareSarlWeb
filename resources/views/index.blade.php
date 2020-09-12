@@ -58,7 +58,7 @@
       </div>
       
       <div class="d-flex align-items-center">
-        <i class="icofont-phone"></i> Call us now +212 6 53 90 36 59
+        <i class="icofont-phone"></i> {{__('text.top.menu.call.us')}} +212 6 53 90 36 59
       </div>
     </div>
   </div>
@@ -120,12 +120,11 @@
           style="background-image: url(../assets/img/slide/slide-1.jpg)"
         >
           <div class="container">
-            <h3>Your agile software partner</h3>
+            <h3>{{__('text.slider1.title')}}</h3>
             <p>
-              Software SARL, the agile Marrakech software house, devlops and
-              modernizes software
+            {{__('text.slider1.text')}}
             </p>
-            <a href="#about" class="btn-get-started scrollto">About us</a>
+            <a href="#about" class="btn-get-started scrollto">{{__('text.about.us.btn')}}</a>
           </div>
         </div>
 
@@ -135,9 +134,9 @@
           style="background-image: url(../assets/img/slide/slide-2.jpg)"
         >
           <div class="container">
-            <h3>Our services</h3>
-            <p>Faster, closer and more competitive with the consumer</p>
-            <a href="#services" class="btn-get-started scrollto">Discover</a>
+            <h3>{{__('text.slider2.title')}}</h3>
+            <p>{{__('text.slider2.text')}}</p>
+            <a href="#services" class="btn-get-started scrollto">{{__('text.discover.btn')}}</a>
           </div>
         </div>
 
@@ -147,9 +146,9 @@
           style="background-image: url(../assets/img/slide/slide-3.jpg)"
         >
           <div class="container">
-            <h3>Our Team</h3>
-            <p>We offer a resource mix of employees, IT architects, chief ... </p>
-            <a href="#doctors" class="btn-get-started scrollto">Who we are</a>
+            <h3>{{__('text.slider3.title')}}</h3>
+            <p>{{__('text.slider3.text')}}</p>
+            <a href="#doctors" class="btn-get-started scrollto">{{__('text.who.we.are.btn')}}</a>
           </div>
         </div>
       </div>
@@ -192,11 +191,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon"><i class="icofont-architecture-alt"></i></div>
-                <h4 class="title"><a href="">IT architecture</a></h4>
+                <h4 class="title"><a href="">{{__('text.it.architecture.title.txt')}}</a></h4>
                 <p class="description">
-                  A solid IT architecture is the basis for a
-                  maintenance-friendly, future-proof and robust system.
-                  
+                {{__('text.it.architecture.content.txt')}}
                 </p>
             </div>
           </div>
@@ -206,10 +203,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon"><i class="icofont-ui-settings"></i></div>
-                <h4 class="title"><a href="">IT design</a></h4>
+                <h4 class="title"><a href="">{{__('text.it.design.title.txt')}}</a></h4>
                 <p class="description">
-                  The secret of success lies in preparation. A solid concept is the foundation for high quality software.
-                 
+                {{__('text.it.design.content.txt')}}
                 </p>
             </div>
           </div>
@@ -219,9 +215,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon"><i class="icofont-deviantart"></i></div>
-                <h4 class="title"><a href="">DevOps</a></h4>
+                <h4 class="title"><a href="">{{__('text.devops.title.txt')}}</a></h4>
                 <p class="description">
-                  The circle in the agile software world is only closed with continuous delivery.
+                {{__('text.devops.content.txt')}}
                   
                 </p>
             </div>
@@ -232,10 +228,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-search"></i></div>
-                <h4 class="title"><a href="">Software development</a></h4>
+                <h4 class="title"><a href="">{{__('text.software.title.txt')}}</a></h4>
                 <p class="description">
-                  Software development with state-of-the-art and standard technologies. 
-                  
+                  {{__('text.software.content.txt')}}
                 </p>
             </div>
           </div>
@@ -248,11 +243,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-database"></i></div>
-                <h4 class="title"><a href="">Database</a></h4>
+                <h4 class="title"><a href="">{{__('text.database.title.txt')}}</a></h4>
                 <p class="description">
-                  We use the most secured databases to handle 
-                  the attack launched by internet users like 
-                  Oracle,postgreSQL,NoSql.
+                {{__('text.database.content.txt')}}
                   </p>
             </div>
           </div>
@@ -261,9 +254,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-file-java"></i></div>
-                <h4 class="title"><a href="">Backend</a></h4>
+                <h4 class="title"><a href="">{{__('text.backend.title.txt')}}</a></h4>
                 <p class="description">
-                  For better back-end web security You  use Java,Spring Boot, Jsf, Laravel frameworks in order to check for vulnerabilities. 
+                {{__('text.backend.content.txt')}}
                   
                 </p>
             </div>
@@ -273,11 +266,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-file-html5"></i></div>
-                <h4 class="title"><a href="">Frontend</a></h4>
+                <h4 class="title"><a href="">{{__('text.frontend.title.txt')}}</a></h4>
                 <p class="description">
-                    We use  professional technology like Bootstrap, 
-                    HTML5, CSS3, JavaScript, Angular in order to build 
-                    a good-looking and functioning website.                 
+                {{__('text.frontend.content.txt')}}                 
                 </p>
             </div>
           </div>
@@ -286,11 +277,9 @@
             >
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-ui-settings"></i></div>
-                <h4 class="title"><a href="">Agile Methodology</a></h4>
+                <h4 class="title"><a href="">{{__('text.agile.title.txt')}} </a></h4>
                 <p class="description">
-                  We use agile development methodology to 
-                  achieve efficient results in projects with 
-                  vague scope in order to guarantee better user satisfaction and control over the delivery results.
+                {{__('text.agile.content.txt')}} 
                 </p>
             </div>
           </div>
@@ -304,17 +293,11 @@
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
         <div class="text-center">
-            <h3>Why Agile?</h3>
+            <h3>{{__('text.why.agile.txt')}} </h3>
             <p>
-              Agile is an iterative approach to project management and software
-              development that helps teams deliver value to their customers
-              faster and with fewer headaches. Instead of betting everything on
-              a "big bang" launch, an agile team delivers work in small, but
-              consumable, increments. Requirements, plans, and results are
-              evaluated continuously so teams have a natural mechanism for
-              responding to change quickly.
+            {{__('text.why.agile.content1.txt')}}
             </p>
-            <p>We already work with Jira,Bitbucket,Confluence</p>
+            <p>{{__('text.why.agile.content2.txt')}}</p>
         </div>
       </div>
     </section><!-- End Cta Section -->
@@ -325,7 +308,7 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>{{__('text.about.us.btn')}}</h2>
         </div>
 
         <div class="row">
@@ -334,13 +317,11 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
              <p class="font-italic">
-              An IT digital company, also referred to as an IT managed services provider is comprised of professional IT specialists who make up the companys core team. The team provides you with expert guidance and management on several IT applications ranging from general computer systems and device networking to electronic hardware and software applications.<br/>
-              IT teams are highly specialized experts with each member having his or her own unique skills and areas of expertise. A good IT team, therefore, is able to offer a large selection of IT support services covering all your IT demands.<br/>
-              IT support companies and offer two main types of services: 
+             {{__('text.about.us.content1.txt')}}
               </p>
               <ul>
-                <li><i class="icofont-check-circled"></i>Fixing immediate IT problems.
-                <ul><i class="icofont-check-circled"></i>Implementing preventative measures against future IT problems.
+                <li><i class="icofont-check-circled"></i>{{__('text.about.us.content2.txt')}}
+                <ul><i class="icofont-check-circled"></i>{{__('text.about.us.content3.txt')}}
                </ul>
           </div>
         </div>
@@ -352,9 +333,9 @@
     <section id="services" class="services services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>{{__('text.services.txt')}}</h2>
             <p>
-              We handle complex business challenges building all types of custom and platform-based solutions.
+            {{__('text.services.content.txt')}}
             </p>
         </div>
 
@@ -366,9 +347,9 @@
           data-aos-delay="100"
         >
           <div class="icon"><i class="icofont-responsive"></i></div>
-          <h4 class="title"><a href="">Web App</a></h4>
+          <h4 class="title"><a href="">{{__('text.web.app.txt')}}</a></h4>
           <p class="description">
-            Developing a web application is used to meet a specific need in your business. If you have a real estate business, every piece of information should be listed on the website and generate statistics for executives. Such a service is not possible with a traditional app. With this in mind, a Web App is the only possible choice.
+          {{__('text.web.app.content.txt')}}
           </p>
         </div>
 
@@ -378,9 +359,9 @@
           data-aos-delay="200"
         >
           <div class="icon"><i class="icofont-oscommerce"></i></div>
-          <h4 class="title"><a href="">Mobile applications</a></h4>
+          <h4 class="title"><a href="">{{__('text.mobile.app.txt')}}</a></h4>
             <p class="description">
-              Creating a website is an essential step in a company's development strategy. A website with an attractive design and clear content, where you can find what you are looking for quickly is a real communication tool and a powerful marketing tool.
+            {{__('text.mobile.app.content.txt')}}
             </p>
         </div>
         <div
@@ -389,9 +370,9 @@
         data-aos-delay="200"
       >
       <div class="icon"><i class="icofont-laptop-alt"></i></div>
-      <h4 class="title"><a href="">Desktop application</a></h4>
+      <h4 class="title"><a href="">{{__('text.desktop.app.txt')}}</a></h4>
         <p class="description">
-          At the pre-development stage, our team emphasizes careful planning and architecture design to advise on better technological options with respect to the Customer’s challenge and industry, as well as to suggest how to reduce development costs and improve the solution’s performance              </p>
+        {{__('text.desktop.app.content.txt')}}</p>
     </div>
     <div
     class="col-lg-4 col-md-6 icon-box"
@@ -399,9 +380,9 @@
     data-aos-delay="300"
   >
   <div class="icon"><i class="icofont-dashboard-web"></i></div>
-  <h4 class="title"><a href="">E-commerce</a></h4>
+  <h4 class="title"><a href="">{{__('text.ecommerce.txt')}}</a></h4>
     <p class="description">
-      Un site de vente en ligne permettra d’optimiser votre visibilité et votre notoriété. notre agence vous accompagne dans la conception de la boutique qui vous ressemble.              </p>
+    {{__('text.ecommerce.content.txt')}}</p>
 </div>
 <div
               class="col-lg-4 col-md-6 icon-box"
@@ -411,7 +392,7 @@
             <div class="icon"><i class="icofont-web"></i></div>
             <h4 class="title"><a href="">UI / UX</a></h4>
               <p class="description">
-                Soigner votre image est primordial sur la toile, et cela commence dès votre page d’accueil. C’est pour cela que notre agence accorde une importance toute particulière à la conception graphique de chacune de vos pages          </div>
+              {{__('text.ui.ux.content.txt')}}   </div>
           
             <div
               class="col-lg-4 col-md-6 icon-box"
@@ -419,15 +400,15 @@
               data-aos-delay="300"
             >
             <div class="icon"><i class="icofont-learn"></i></div>
-            <h4 class="title"><a href="">IT/Digital consulting</a></h4>
+            <h4 class="title"><a href="">{{__('text.it.digital.txt')}} </a></h4>
               <p class="description">
-                We can present a formation of different software languages to give you a push to develop your skills              </p>
+              {{__('text.it.digital.content.txt')}}              </p>
           </div>
         </div>
       </div>
     </section><!-- End Services Section -->
      <div class="section-title">
-              <h2>Customers</h2>   
+              <h2>{{__('text.customers.txt')}}</h2>   
             </div>
           <!-- ======= Clients Section ======= -->
           <section id="clients" class="clients">
@@ -469,10 +450,9 @@
     <section id="departments" class="departments">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Projects</h2>
+            <h2>{{__('text.projects.txt')}}</h2>
             <p>
-              The biggest projects we created are industrials and internal systems, 
-              and her we show you some ideas about them.
+            {{__('text.projects.content.txt')}}
             </p>
         </div>
 
@@ -486,30 +466,28 @@
                     href="#tab-1"
                   >
                     <h4>Abatech</h4>
-                    <p>ABATech (or SERA with a new name)</p>
+                    <p>{{__('text.abatech.desc.txt')}}</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-2">
                     <h4>LPPNF</h4>
                     <p>
-                      LPPNF is a project designed for the accounting control
-                      logistics service
+                    {{__('text.lppnf.desc.txt')}}
                     </p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-3">
                     <h4>SBE</h4>
-                    <p>SBE is a project developed by the laravel framework</p>
+                    <p>{{__('text.sbe.desc.txt')}}</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-4">
                     <h4>Aus4 mach 1</h4>
                     <p>
-                      Aus4 mach 1 is a vehicle processing project developed by
-                      J2ee and Angular 7.
+                    {{__('text.aus.desc.txt')}}
                     </p>
                 </a>
               </li>
@@ -521,57 +499,45 @@
                   <h3>Abatech</h3>
 
                   <img
-                    src="../assets/img/abatech.jpg"
+                    src="../assets/img/projects/abatech.jpg"
                     alt=""
                     class="img-fluid"
                   />
                   <p>
-                    One of those big web applications, we have ABATech (or SERA
-                    with a new name) is the standard tool at BMW AG for the
-                    ergonomics and risk assessment of workplaces in accordance
-                    with legal requirements, BMW factory want to make an
-                    internal system for their employees, developed by J2ee and
-                    AngularJs, working on it from 2015 to 2019 (BMW project
-                    outsourcing NTT)
+                  {{__('text.abatech.content.txt')}}
                   </p>
               </div>
               <div class="tab-pane" id="tab-2">
                   <h3>LPPNF</h3>
                   <img
-                    src="../assets/img/lppnf.png"
+                    src="../assets/img/projects/lppnf.png"
                     alt=""
                     class="img-fluid"
                   />
                   <p>
-                    LPPNF is a project designed for the accounting control
-                    logistics service developed by JEE and jsf working on it from
-                    2014 to 2015 (BMW project outsourcing NTT)
+                  {{__('text.lppnf.content.txt')}}
                   </p>
               </div>
               <div class="tab-pane" id="tab-3">
                   <h3>SBE</h3>
                   <img
-                    src="../assets/img/sbe.png"
+                    src="../assets/img/projects/sbe.png"
                     alt=""
                     class="img-fluid"
                   />
                   <p>
-                    SBE is a project developed by the laravel framework, it aims
-                    to unite all immigrants in associations around the world.
+                  {{__('text.sbe.content.txt')}}
                   </p>
               </div>
               <div class="tab-pane" id="tab-4">
                   <h3>Aus4 Mach 1</h3>
                   <img
-                    src="../assets/img/aus.png"
+                    src="../assets/img/projects/aus.png"
                     alt=""
                     class="img-fluid"
                   />
                   <p>
-                    Aus4 mach 1 is a vehicle processing project developed by
-                    J2ee and Angular 7. Its goal is to facilitate users request
-                    for other configuration on vehicles working on it from 2019
-                    to until today (BMW project outsourcing NTT).
+                  {{__('text.aus.content.txt')}}
                   </p>
               </div>
             </div>
@@ -586,7 +552,7 @@
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Testimonials</h2>
+          <h2>{{__('text.testimonials.txt')}}</h2>
            
         </div>
 
@@ -598,11 +564,7 @@
           <div class="testimonial-item">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              We would like to express our satisfaction on the cooperation regarding the development of our web application. 
-              Software  did a very professional job. 
-              We are satisfied with the solution given to us and with the communication flow through the project.
-              We would like to recommend Software . 
-              We look forward to working with them in future projects.
+              {{__('text.testimonials.wahid.txt')}}
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
               <img
@@ -611,16 +573,13 @@
                 alt=""
               />
             <h3>Wahid khachabi</h3>
-            <h4>Exo-it Founder</h4>
+            <h4>{{__('text.founder.txt')}}</h4>
           </div>
 
           <div class="testimonial-item">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              I wanted to take a moment to thank you for the services your team has provided. 
-              Your team has been a pleasure to work with, professional and timely. 
-              The only delay in work that we have experienced has been due to our own lack of organization managing our projects, not yours. 
-              Job well done and I hope we can continue to grow together.
+              {{__('text.testimonials.michael.txt')}}
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
               <img
@@ -629,14 +588,13 @@
                 alt=""
               />
             <h3>Michael Bauer</h3>
-            <h4>Scrum Master in XXX</h4>
+            <h4>Scrum Master</h4>
           </div>
 
           <div class="testimonial-item">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Under tight deadlines and with high expectations, Flatworld Solutions was a pleasure to partner with, on a high profile political campaign website.
-              Professional, conscientious and thoroughly competent - I wouldn't hesitate in recommending them to other agencies..
+              {{__('text.top.menu.team.txt')}}
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
               <img
@@ -659,8 +617,8 @@
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
-            <h2>Team</h2>
-            <p>Our team of passionate people composed of various profiles: software developper, data engineers, front & back developers, devops, product owner.
+            <h2>{{__('text.top.menu.team')}}</h2>
+            <p>{{__('text.team.desc.txt')}}
             </p>
           </div>
   
@@ -671,9 +629,9 @@
                 <div class="pic"><img src="../assets/img/team/achraf2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Achraf SALOUMI</h4>
-                  <span>Managing Director | Team Leader
+                  <span>{{__('text.achraf.desc.txt')}}
                   </span>
-                  <p>development engineer with seven years of experience in the IT field and business manager.</p>
+                  <p>{{__('text.achraf.desc2.txt')}}</p>
                   <div class="social">
                     <a href="https://www.facebook.com/achtech"><i class="ri-facebook-fill"></i></a>
                     <a href="https://www.instagram.com/saloumi_achraf/"><i class="ri-instagram-fill"></i></a>
@@ -688,9 +646,9 @@
                 <div class="pic"><img src="../assets/img/team/brahim2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Brahim BARJALI</h4>
-                  <span>Project manager
+                  <span>{{__('text.project.manager.txt')}}
                   </span>
-                  <p> development engineer with seven years of experience in the IT field.</p>
+                  <p> {{__('text.brahim.desc.txt')}}</p>
                   <div class="social">
                     <a href="https://www.facebook.com/brahim.barjali"><i class="ri-facebook-fill"></i></a>
                     <a href="https://www.instagram.com/brahim.barjali/"><i class="ri-instagram-fill"></i></a>
@@ -705,9 +663,9 @@
                 <div class="pic"><img src="../assets/img/team/oumaima2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Oumaima STITINI</h4>
-                  <span>Digital communication & software devlopper
+                  <span>{{__('text.oumaima.desc1.txt')}}
                   </span>
-                  <p> development engineer with two years of experience in the IT field.</p>
+                  <p> {{__('text.oumaima.desc2.txt')}}</p>
                   <div class="social">
                     <a href="https://www.facebook.com/oumaima.stitini"><i class="ri-facebook-fill"></i></a>
                     <a href="https://www.instagram.com/stitini_oumaima/?hl=fr"><i class="ri-instagram-fill"></i></a>
@@ -722,9 +680,9 @@
                 <div class="pic"><img src="../assets/img/team/nora2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Noura BOUCHBAAT</h4>
-                  <span>Software developer
+                  <span>{{__('text.noura.desc1.txt')}}
                   </span>
-                  <p> development engineer with seven years of experience in the IT field.</p>
+                  <p> {{__('text.brahim.desc.txt')}}</p>
                   <div class="social">
                     <a href="https://www.facebook.com/noura.bouchbaat"><i class="ri-facebook-fill"></i></a>
                     <a href="https://www.instagram.com/nourabouchbaat1/"><i class="ri-instagram-fill"></i></a>
@@ -755,22 +713,23 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>Num 6 2nd floor subdivision al mustapha m'hita semlalia Marrakech</p>
+                  <h3>{{__('text.our.address.txt')}}</h3>
+                  <p>{{__('text.our.address.desc.txt')}}</p>
                   <p>Zip code : 40000</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                    <p>info@software.sarl<br />contact@software.sarl</p>
+                  <h3>{{__('text.email.us.txt')}}</h3>
+                    <p>contact@software.sarl</p>
+                    <a href = "mailto: contact@software.sarl">{{__('text.send.txt')}}</a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
+                  <h3>{{__('text.call.us.txt')}}</h3>
                     <p>+212 6 53 90 36 59<br />+212 5 24 44 93 52</p>
                 </div>
               </div>
@@ -834,14 +793,14 @@
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
-                <div class="loading">Loading</div>
+                <div class="loading">{{__('text.loading.txt')}}</div>
                 <div class="error-message"></div>
                   <div class="sent-message">
-                    Your message has been sent. Thank you!
+                  {{__('text.message.sent.txt')}}
               </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">{{__('text.send.message.btn')}}</button>
                 </div>
             </form>
           </div>
@@ -862,10 +821,7 @@
               <div class="footer-info">
                 <h3>Software SARL</h3>
                 <p>
-                  une agence de communication basée sur Marrakech, nous sommes
-                  dans l'industrie informatique depuis 2010 et nous proposons un
-                  développement de niveau entreprise pour divers clients à
-                  travers le monde. <br /><br />
+                {{__('text.software.desc.txt')}}
                 </p>
               </div>
             </div>
@@ -874,23 +830,23 @@
               <h4>Navigation</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="index.html">Home</a>
+                  <i class="bx bx-chevron-right"></i> <a href="index.html">{{__('text.stop.menu.home')}}</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#about">About us</a>
+                  <i class="bx bx-chevron-right"></i> <a href="#about">{{__('text.top.menu.about')}}</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#services">Services</a>
+                  <i class="bx bx-chevron-right"></i> <a href="#services">{{__('text.top.menu.services')}}</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#doctors">Our team</a>
+                  <a href="#doctors">{{__('text.top.menu.team')}}</a>
                 </li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Follow us</h4>
+              <h4>{{__('text.follow.us.txt')}}</h4>
               <div class="social-links mt-3">
                 <a
                   href="https://www.facebook.com/Software-SARL-318449085746027"
@@ -907,8 +863,8 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>Newsletter : Join our mailing list</p>
+              <h4>{{__('text.our.newsletter.txt')}}</h4>
+              <p>{{__('text.newsletter.desc.txt')}}</p>
               <form action="" method="post">
                 <input type="email" name="email" /><input
                   type="submit"
@@ -921,16 +877,13 @@
       </div>
 
     <div class="container">
-      <div class="copyright">
-          &copy; Copyright <strong><span>Medicio</span></strong
-          >. All Rights Reserved
-      </div>
+      
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by Software sarl</a>
       </div>
     </div>
   </footer><!-- End Footer -->
