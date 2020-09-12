@@ -43,7 +43,7 @@ return [
                             achieve efficient results in projects with 
                             vague scope in order to guarantee better user satisfaction and control over the delivery results.',
     'why.agile.txt' => 'Why Agile?',
-    'why.agile.content.txt' => 'Agile is an iterative approach to project management and software
+    'why.agile.content1.txt' => 'Agile is an iterative approach to project management and software
                 development that helps teams deliver value to their customers
                 faster and with fewer headaches. Instead of betting everything on
                 a "big bang" launch, an agile team delivers work in small, but

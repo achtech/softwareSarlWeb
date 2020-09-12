@@ -594,7 +594,7 @@
           <div class="testimonial-item">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              {{__('text.top.menu.team.txt')}}
+              {{__('text.testimonials.alfred.txt')}}
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
               <img
@@ -830,7 +830,7 @@
               <h4>Navigation</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="index.html">{{__('text.stop.menu.home')}}</a>
+                  <i class="bx bx-chevron-right"></i> <a href="index.html">{{__('text.top.menu.home')}}</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i> <a href="#about">{{__('text.top.menu.about')}}</a>
