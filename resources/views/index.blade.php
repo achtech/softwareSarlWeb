@@ -51,6 +51,12 @@
       <div class="d-flex align-items-center">
         <i class="icofont-clock-time"></i> Monday - Friday, 8 AM to 6 PM (GMT+1)
       </div>
+
+      <div class="d-flex align-items-center">
+        <a style='' href="{!! url('/') !!}/fr"><img width="32" height="22" alt="Francais" title="Francais" src="../assets/img/flag/fr-flag.png"></a> | 
+        <a style='' href="{!! url('/') !!}/en"><img width="32" height="22" alt="English" title="English" src="../assets/img/flag/en-flag.png"></a>
+      </div>
+      
       <div class="d-flex align-items-center">
         <i class="icofont-phone"></i> Call us now +212 6 53 90 36 59
       </div>
@@ -68,11 +74,11 @@
       <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-            <li><a href="#departments">Projects</a></li>
-          <li><a href="#doctors">Team</a></li>
+          <li class="active"><a href="index.html">{{__('text.top.menu.home')}}</a></li>
+          <li><a href="#about">{{__('text.top.menu.about')}}</a></li>
+          <li><a href="#services">{{__('text.top.menu.services')}}</a></li>
+            <li><a href="#departments">{{__('text.top.menu.projects')}}</a></li>
+          <li><a href="#doctors">{{__('text.top.menu.team')}}</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
@@ -90,7 +96,7 @@
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">{{__('text.top.menu.contact')}}</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -324,7 +330,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="../assets/img/about11.jpg" class="img-fluid" alt="">
+            <img src="../assets/img/aboutUs.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
              <p class="font-italic">
@@ -430,28 +436,28 @@
              
               <div class="row">
     
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-1.png" class="img-fluid" alt="">
+              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer5.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-2.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/customer6.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-3.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/customer1.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-4.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/customer2.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-5.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/customer3.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="../assets/img/clients/client-6.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/customer7.png" class="img-fluid" alt="">
                 </div>
     
               </div>
