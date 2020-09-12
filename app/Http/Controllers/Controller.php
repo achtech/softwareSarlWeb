@@ -11,5 +11,8 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    
+    public function switchLang($lang){
+        dd($lang);
+        App::setLocale($lang);
+    }
 }
