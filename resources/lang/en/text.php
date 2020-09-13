@@ -13,7 +13,7 @@ return [
     'slider1.text' => 'Software SARL, the agile Marrakech software house, devlops and
                         modernizes software',
     'about.us.btn' => 'About us',
-    'slider2.title' => 'Our serveces',
+    'slider2.title' => 'Our services',
     'slider2.text' => 'Faster, closer and more competitive with the consumer',
     'discover.btn' => 'Discover',
     'slider3.title' => 'Our Team',
