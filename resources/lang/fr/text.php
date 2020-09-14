@@ -8,7 +8,7 @@ return [
     'top.menu.services' => 'SERVICES',
     'top.menu.team' => 'ÉQUIPE',
     'top.menu.contact' => 'CONTACT',
-    'top.menu.call.us' => 'Appelez nous maintenant',
+    'top.menu.call.us' => 'Appelez nous',
     'slider1.title' => 'Votre partenaire logiciel agile ',
     'slider1.text' => 'Software SARL, la maison de logiciels agile de Marrakech, développe et modernise ses logiciels',
     'about.us.btn' => 'À propos de nous',

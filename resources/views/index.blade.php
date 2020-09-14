@@ -74,7 +74,7 @@
       <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">{{__('text.top.menu.home')}}</a></li>
+          <li class="active"><a href="#hero">{{__('text.top.menu.home')}}</a></li>
           <li><a href="#about">{{__('text.top.menu.about')}}</a></li>
           <li><a href="#services">{{__('text.top.menu.services')}}</a></li>
             <li><a href="#departments">{{__('text.top.menu.projects')}}</a></li>
@@ -148,7 +148,7 @@
           <div class="container">
             <h3>{{__('text.slider3.title')}}</h3>
             <p>{{__('text.slider3.text')}}</p>
-            <a href="#doctors" class="btn-get-started scrollto">{{__('text.who.we.are.btn')}}</a>
+            <a href="#team" class="btn-get-started scrollto">{{__('text.who.we.are.btn')}}</a>
           </div>
         </div>
       </div>
