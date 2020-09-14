@@ -49,7 +49,7 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center">
-        <i class="icofont-clock-time"></i> Monday - Friday, 8 AM to 6 PM (GMT+1)
+        <i class="icofont-clock-time"></i> {{__('text.top.menu.horaire')}}
       </div>
 
       <div class="d-flex align-items-center">
@@ -74,7 +74,7 @@
       <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">{{__('text.top.menu.home')}}</a></li>
+          <li class="active"><a href="/">{{__('text.top.menu.home')}}</a></li>
           <li><a href="#about">{{__('text.top.menu.about')}}</a></li>
           <li><a href="#services">{{__('text.top.menu.services')}}</a></li>
             <li><a href="#departments">{{__('text.top.menu.projects')}}</a></li>
@@ -610,10 +610,10 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Doctors Section ======= -->
-      <!-- ======= Doctors Section ======= -->
-      <!-- ======= Doctors Section ======= -->
-      <section id="team" class="team section-bg">
+    <!-- ======= team Section ======= -->
+      <!-- ======= team Section ======= -->
+      <!-- ======= team Section ======= -->
+      <section id="doctors" class="doctors section-bg">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
@@ -695,7 +695,7 @@
           </div>
   
         </div>
-      </section><!-- End Team Section -->
+      </section><!-- End doctors Section -->
     <!-- ======= Contact Section ======= -->
       <!-- ======= Contact Section ======= -->
       <!-- ======= Contact Section ======= -->

@@ -9,6 +9,7 @@ return [
     'top.menu.team' => 'TEAM',
     'top.menu.contact' => 'CONTACT',
     'top.menu.call.us' => 'Call us now',
+    'top.menu.horaire' => 'Monday - Friday, 8 AM to 6 PM (GMT+1)',
     'slider1.title' => 'Your agile software partner',
     'slider1.text' => 'Software SARL, the agile Marrakech software house, devlops and
                         modernizes software',

@@ -64,7 +64,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#departments">Departments</a></li>
-          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#team">team</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
