@@ -53,8 +53,8 @@
       </div>
 
       <div class="d-flex align-items-center">
-        <a style='' href="{!! url('/') !!}/fr"><img width="32" height="22" alt="Francais" title="Francais" src="../assets/img/flag/fr-flag.png"></a> | 
-        <a style='' href="{!! url('/') !!}/en"><img width="32" height="22" alt="English" title="English" src="../assets/img/flag/en-flag.png"></a>
+        <a style='' href="{!! url('/') !!}/fr"><img width="32" height="22" alt="Francais" title="Francais" src="../assets/img/flag/fr.png"></a> | 
+        <a style='' href="{!! url('/') !!}/en"><img width="32" height="22" alt="English" title="English" src="../assets/img/flag/uk.png"></a>
       </div>
       
       <div class="d-flex align-items-center">
