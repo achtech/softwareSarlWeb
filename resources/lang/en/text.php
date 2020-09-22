@@ -11,14 +11,14 @@ return [
     'top.menu.call.us' => 'Call us now',
     'top.menu.horaire' => 'Monday - Friday, 8 AM to 6 PM (GMT+1)',
     'slider1.title' => 'Your agile software partner',
-    'slider1.text' => 'Software SARL, the agile Marrakech software house, devlops and
+    'slider1.text' => 'Software SARL, the agile software house, develops and
                         modernizes software',
     'about.us.btn' => 'About us',
     'slider2.title' => 'Our services',
-    'slider2.text' => 'Faster, closer and more competitive with the consumer',
+    'slider2.text' => 'Enterprise-grade and highly competitive',
     'discover.btn' => 'Discover',
     'slider3.title' => 'Our Team',
-    'slider3.text' => 'We offer a resource mix of employees, IT architects, chief ...',
+    'slider3.text' => 'Full Stack IT team and dedicated project managers',
     'who.we.are.btn' => 'Who we are',
     'it.architecture.title.txt' => 'IT architecture',
     'it.architecture.content.txt' => 'A solid IT architecture is the basis for a
@@ -51,7 +51,7 @@ return [
                 consumable, increments. Requirements, plans, and results are
                 evaluated continuously so teams have a natural mechanism for
                 responding to change quickly.',
-    'why.agile.content2.txt' => 'We already work with Jira,Bitbucket,Confluence',
+    'why.agile.content2.txt' => 'We work with',
     'about.us.content1.txt' => 'An IT digital company, also referred to as an IT managed services provider is comprised of professional IT specialists who make up the companys core team. The team provides you with expert guidance and management on several IT applications ranging from general computer systems and device networking to electronic hardware and software applications.
                 IT teams are highly specialized experts with each member having his or her own unique skills and areas of expertise. A good IT team, therefore, is able to offer a large selection of IT support services covering all your IT demands.
                 IT support companies and offer two main types of services: ',
@@ -121,13 +121,13 @@ return [
     'our.address.txt' => 'Our Address',
     'our.address.desc.txt' => 'Num 6 2nd floor subdivision al mustapha m hita semlalia Marrakech',
     'email.us.txt' => 'Email Us',
-    'send.txt' => 'Send',
+    'send.txt' => 'Write us',
     'call.us.txt' => 'Call Us',
     'loading.txt' => 'Loading',
     'message.sent.txt' => 'Your message has been sent. Thank you!',
     'send.message.btn' => 'Send Message',
-    'software.desc.txt' => 'a communication agency based in Marrakech, we are
-                    in the IT industry since 2010 and we offer a
+    'software.desc.txt' => 'IT agency based in Marrakech, we are
+                    in the industry since 2010 and we offer an
                     enterprise level development for various clients 
                     at worldwide.',
     'follow.us.txt' => 'Follow us',

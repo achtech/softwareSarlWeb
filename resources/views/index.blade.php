@@ -52,13 +52,13 @@
         <i class="icofont-clock-time"></i> {{__('text.top.menu.horaire')}}
       </div>
 
-      <div class="d-flex align-items-center">
-        <a style='' href="{!! url('/') !!}/fr"><img width="32" height="22" alt="Francais" title="Francais" src="../assets/img/flag/fr-flag.png"></a> | 
-        <a style='' href="{!! url('/') !!}/en"><img width="32" height="22" alt="English" title="English" src="../assets/img/flag/en-flag.png"></a>
-      </div>
       
       <div class="d-flex align-items-center">
         <i class="icofont-phone"></i> {{__('text.top.menu.call.us')}} +212 6 53 90 36 59
+      </div>
+      <div class="d-flex align-items-right">
+        <a style='color:white' href="{!! url('/') !!}/fr">FR</a> | 
+        <a style='color:white' href="{!! url('/') !!}/en">EN</a>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
       <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="/">{{__('text.top.menu.home')}}</a></li>
+          <li class="active"><a href="#hero">{{__('text.top.menu.home')}}</a></li>
           <li><a href="#about">{{__('text.top.menu.about')}}</a></li>
           <li><a href="#services">{{__('text.top.menu.services')}}</a></li>
             <li><a href="#departments">{{__('text.top.menu.projects')}}</a></li>
@@ -148,7 +148,7 @@
           <div class="container">
             <h3>{{__('text.slider3.title')}}</h3>
             <p>{{__('text.slider3.text')}}</p>
-            <a href="#doctors" class="btn-get-started scrollto">{{__('text.who.we.are.btn')}}</a>
+            <a href="#team" class="btn-get-started scrollto">{{__('text.who.we.are.btn')}}</a>
           </div>
         </div>
       </div>
@@ -297,7 +297,8 @@
             <p>
             {{__('text.why.agile.content1.txt')}}
             </p>
-            <p>{{__('text.why.agile.content2.txt')}}</p>
+            <h3>{{__('text.why.agile.content2.txt')}}</h3>
+            TODO  : add logos of jira confluence sonar jenkins J2E php oracle mysql postgre bootstrap ...
         </div>
       </div>
     </section><!-- End Cta Section -->
@@ -407,47 +408,10 @@
         </div>
       </div>
     </section><!-- End Services Section -->
-     <div class="section-title">
-              <h2>{{__('text.customers.txt')}}</h2>   
-            </div>
-          <!-- ======= Clients Section ======= -->
-          <section id="clients" class="clients">
-       
-            <div class="container" data-aos="zoom-in">
-             
-              <div class="row">
-    
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer5.png" class="img-fluid" alt="">
-                </div>
-    
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer6.png" class="img-fluid" alt="">
-                </div>
-    
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer1.png" class="img-fluid" alt="">
-                </div>
-    
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer2.png" class="img-fluid" alt="">
-                </div>
-    
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer3.png" class="img-fluid" alt="">
-                </div>
-    
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer7.png" class="img-fluid" alt="">
-                </div>
-    
-              </div>
-    
-            </div>
-          </section><!-- End Clients Section -->
+
       <!-- ======= Projects Section ======= -->
       <!-- ======= Projects Section ======= -->
-    <section id="departments" class="departments">
+      <section id="departments" class="departments">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>{{__('text.projects.txt')}}</h2>
@@ -544,7 +508,48 @@
           </div>
         </div>
       </div>
-    </section><!-- End Departments Section -->
+    </section><!-- End Project Section -->
+
+
+     <div class="section-title">
+              <h2>{{__('text.customers.txt')}}</h2>   
+            </div>
+          <!-- ======= Clients Section ======= -->
+          <section id="clients" class="clients">
+       
+            <div class="container" data-aos="zoom-in">
+             
+              <div class="row">
+    
+              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer5.png" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer6.png" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer1.png" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer2.png" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer3.png" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/customer7.png" class="img-fluid" alt="">
+                </div>
+    
+              </div>
+    
+            </div>
+          </section><!-- End Clients Section -->
+
 
     <!-- ======= Testimonials Section ======= -->
       <!-- ======= Testimonials Section ======= -->
@@ -721,16 +726,16 @@
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
-                  <h3>{{__('text.email.us.txt')}}</h3>
                     <p>contact@software.sarl</p>
+                    <p>Support@software.sarl</p>
                     <a href = "mailto: contact@software.sarl">{{__('text.send.txt')}}</a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
-                  <h3>{{__('text.call.us.txt')}}</h3>
                     <p>+212 6 53 90 36 59<br />+212 5 24 44 93 52</p>
+                    <a>&nbsp;</a>
                 </div>
               </div>
             </div>
@@ -785,7 +790,7 @@
                   <textarea
                     class="form-control"
                     name="message"
-                    rows="7"
+                    rows="6"
                     data-rule="required"
                     data-msg="Please write something for us"
                     placeholder="Message"
