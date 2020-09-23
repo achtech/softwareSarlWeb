@@ -565,23 +565,23 @@
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/NTTScreen.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/NTT.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/BMWScreen.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/bmw.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer2.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/mini.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer3.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/man.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer7.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/giz.png" class="img-fluid" alt="">
                 </div>
     
               </div>
