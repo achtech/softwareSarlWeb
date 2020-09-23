@@ -298,8 +298,47 @@
             {{__('text.why.agile.content1.txt')}}
             </p>
             <h3>{{__('text.why.agile.content2.txt')}}</h3>
-            TODO  : add logos of jira confluence sonar jenkins J2E php oracle mysql postgre bootstrap ...
-        </div>
+            <div class="row tech-speace" >
+              <div class="col-md-2">
+                <img src="assets/img/technologies/java.png"  class ="ellipse" title ="J2ee" alt="J2ee">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/confluence-jira.png" title ="Jira" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/jenkis.png" title ="Jenkis" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/sonar.png" title ="Sonar" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/oracle.png"  title ="Oracle" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/postgree.png" title ="Postgree" class ="ellipse" alt="">
+              </div>
+            </div>
+            <div class="row tech-speace">
+              <div class="col-md-2">
+                <img src="assets/img/technologies/mysql.png"  title ="Mysql" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/angular.png" title ="Angulaire" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/laravel.png"  title ="Laravel" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/git.png"  title ="Git" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/svn.png" title ="Svn" class ="ellipse" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/technologies/boostrap.png" title ="Boostrap" class ="ellipse" alt="">
+              </div>
+            </div>
+          </div>
       </div>
     </section><!-- End Cta Section -->
 
@@ -317,7 +356,7 @@
             <img src="../assets/img/aboutUs.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-             <p class="font-italic">
+             <p >
              {{__('text.about.us.content1.txt')}}
               </p>
               <ul>
@@ -522,15 +561,15 @@
               <div class="row">
     
               <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer5.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/EXOScreen.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer6.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/NTTScreen.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/customer1.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/BMWScreen.png" class="img-fluid" alt="">
                 </div>
     
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
@@ -603,11 +642,11 @@
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
               <img
-                src="../assets/img/testimonials/alfred.jpg"
+                src="../assets/img/testimonials/oskar-ingemarsson.jpg"
                 class="testimonial-img"
                 alt=""
               />
-            <h3>Alfred Zeitner</h3>
+            <h3>Oskar-ingemarsson</h3>
             <h4>Freelancer</h4>
           </div>
 
@@ -628,15 +667,14 @@
           </div>
   
           <div class="row">
-  
-            <div class="col-lg-6">
-              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
                 <div class="pic"><img src="../assets/img/team/achraf2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Achraf SALOUMI</h4>
                   <span>{{__('text.achraf.desc.txt')}}
                   </span>
-                  <p>{{__('text.achraf.desc2.txt')}}</p>
+                  <p> {{__('text.achraf.desc2.txt')}}</p>
                   <div class="social">
                     <a href="https://www.facebook.com/achtech"><i class="ri-facebook-fill"></i></a>
                     <a href="https://www.instagram.com/saloumi_achraf/"><i class="ri-instagram-fill"></i></a>
@@ -645,9 +683,8 @@
                 </div>
               </div>
             </div>
-  
-            <div class="col-lg-6 mt-4 mt-lg-0">
-              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
                 <div class="pic"><img src="../assets/img/team/brahim2.jpg" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Brahim BARJALI</h4>
@@ -662,7 +699,6 @@
                 </div>
               </div>
             </div>
-  
             <div class="col-lg-6 mt-4">
               <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
                 <div class="pic"><img src="../assets/img/team/oumaima2.jpg" class="img-fluid" alt=""></div>

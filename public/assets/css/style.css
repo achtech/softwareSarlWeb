@@ -628,7 +628,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fcfc;
+  /*background-color: #f7fcfc;*/
 }
 
 .section-title {
@@ -930,6 +930,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-color: #f7fcfc;
+}
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
@@ -1550,6 +1553,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background-color: #f7fcfc;
+}
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1966,4 +1972,22 @@ section {
 .doctors .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+/*-----------------------------------------*/
+    /*-----Clients--------------*/
+/*-----------------------------------------*/
+.clients{
+  background-color: #f7fcfc;
+}
+
+/*-----------------------------------------*/
+    /*-----Technologie--------------*/
+/*-----------------------------------------*/
+.tech-speace{
+  padding-top: 20px;
+}
+.ellipse {
+  border-radius: 40%;
+  box-shadow: 1px 1px 12px #555;
 }
